@@ -19,22 +19,22 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with GNU Emacs.  If not, see <http://www.gnu.org/licenses/>.
 
-(deftheme twilight
-  "")
+(deftheme twilight "")
 
 (custom-theme-set-faces
  'twilight
- '(default ((t (:background "#141414" :foreground "#FFFFFF"))))
+ 
+ '(default ((t (:background "#151515" :foreground "#f8f8f8"))))
  '(cursor ((t (:foreground "#ffffff"))))
  '(region ((t (:background "#353638"))))
 
  '(mode-line ((t (:background "#444" :foreground "#d9d9d9" :box (:line-width 1 :color "#555")))))
-
  '(mode-line-inactive ((t (:background "#333" :foreground "#999" :box (:line-width 1 :color "#555")))))
 
-;; The Border around the edge of the frame
+ ;; The Border around the edge of the frame
  '(fringe ((t (:background "#353638"))))
- '(vertical-border ((t (:background "#FFFFFF"))))
+ '(vertical-border ((t (:background "#fff"))))
+
  '(ido-first-match ((t (:foreground "#FFC557"))))
  '(ido-subdir ((t (:foreground "#3B7C55"))))
 
@@ -62,18 +62,11 @@
  '(link ((t (:underline t))))
  '(link-visited ((t (:underline t))))
  '(button ((t (:underline t))))
- 
-; saved for future customization
-; '(isearch ((t (...)))) 
-; '(lazy-highlight ((t (...))))
-; '(whitespace-tab ((((class color) (background dark)) (:background "grey5" :foreground "grey10"))))
-; '(whitespace-indentation ((t (:background "#111"))))
-; '(whitespace-newline ((t (:foreground "#012" :weight normal))))
-; '(whitespace-space-before-tab ((t (:background "#210"))))
-; '(whitespace-space-after-tab ((t (:background "#210"))))
-; '(whitespace-trailing ((t (:background "#100"))))
-; '(trailing-whitespace ((t (:background "#100"))))
- '(header-line ((t (:background "#1c482b" :foreground "#333333")))))
+
+ '(header-line ((t (:background "#444" :foreground "#d9d9d9" :box (:line-width 1 :color "#555")))))
+
+ )
+
 
 (provide-theme 'twilight)
 
