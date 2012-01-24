@@ -1,6 +1,6 @@
 # Yet another Twilight Theme
 
-Yes I know, but I could never find one I particularly liked, so I modified the wonderful 
+Yes I know. However I could never find one I particularly liked, so I modified the wonderful 
 [Django Theme by Andrzej Sliwa](https://github.com/andrzejsliwa/django-theme.el)
 
 ## Get Started
