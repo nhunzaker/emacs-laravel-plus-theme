@@ -28,7 +28,7 @@
  '(cursor ((t (:foreground "#ffffff"))))
  '(region ((t (:background "#353638"))))
 
- '(mode-line ((t (:color "#fff" :background "#777" :box (:line-width 1 :color "#aaa")))))
+ '(mode-line ((t (:background "#444" :foreground "#d9d9d9" :box (:line-width 1 :color "#555")))))
 
  '(mode-line-inactive ((t (:background "#333" :foreground "#999" :box (:line-width 1 :color "#555")))))
 
@@ -52,12 +52,12 @@
  '(font-lock-comment-face ((t (:slant italic :foreground "#605860"))))
 
  '(font-lock-constant-face ((t (:foreground "#C5563D"))))
- '(font-lock-function-name-face ((t (:foreground "#55747C" :weight bold))))
+ '(font-lock-function-name-face ((t (:foreground "#D19454"))))
  '(font-lock-keyword-face ((t (:foreground "#D19454"))))
  '(font-lock-string-face ((t (:foreground "#889A60"))))
  '(font-lock-type-face ((t (:foreground "#ead47a"))))
- '(font-lock-variable-name-face ((t (:foreground "#C5563D" :weight bold))))
- '(font-lock-warning-face ((t (:foreground "#ff6800" :weight bold))))
+ '(font-lock-variable-name-face ((t (:foreground "#55747C" :weight bold))))
+ '(font-lock-warning-face ((t (:foreground "#9D7FFD" :weight bold))))
  '(font-lock-doc-string-face ((t (:foreground "#91BB9E")))) 
  '(link ((t (:underline t))))
  '(link-visited ((t (:underline t))))
