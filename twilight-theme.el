@@ -1,0 +1,85 @@
+;;; twilight-theme.el --- Custom face theme for Emacs
+
+;; A modification of the Django Theme Written by Andrzej Sliwa
+;; Copyright (C) 2011 Andrzej Sliwa
+
+;; Author: Andrzej Sliwa
+;; URL: http://github/anrzejsliwa/django-theme
+;; Version: 1.0.0
+;; 
+;; This file is free software: you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; This file is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with GNU Emacs.  If not, see <http://www.gnu.org/licenses/>.
+
+(deftheme twilight
+  "")
+
+(custom-theme-set-faces
+ 'twilight
+ '(default ((t (:background "#141414" :foreground "#FFFFFF"))))
+ '(cursor ((t (:foreground "#ffffff"))))
+ '(region ((t (:background "#353638"))))
+
+ '(mode-line ((t (:color "#fff" :background "#777" :box (:line-width 1 :color "#aaa")))))
+
+ '(mode-line-inactive ((t (:background "#333" :foreground "#999" :box (:line-width 1 :color "#555")))))
+
+;; The Border around the edge of the frame
+ '(fringe ((t (:background "#353638"))))
+ '(vertical-border ((t (:background "#FFFFFF"))))
+ '(ido-first-match ((t (:foreground "#FFC557"))))
+ '(ido-subdir ((t (:foreground "#3B7C55"))))
+
+ ;; The Selected Line
+ '(hl-line ((t (:background "#191919"))))
+ 
+ '(flymake-errline  ((t (:background "#FF6800"))))
+ '(flymake-warnline ((t (:background "#084Eb9"))))
+ 
+ '(minibuffer-prompt ((t (:foreground "#f8f8f8" :weight bold))))
+ 
+ '(font-lock-builtin-face ((t (:foreground "#55747C" :weight bold))))
+
+ ;; Styles comments
+ '(font-lock-comment-face ((t (:slant italic :foreground "#605860"))))
+
+ '(font-lock-constant-face ((t (:foreground "#C5563D"))))
+ '(font-lock-function-name-face ((t (:foreground "#55747C" :weight bold))))
+ '(font-lock-keyword-face ((t (:foreground "#D19454"))))
+ '(font-lock-string-face ((t (:foreground "#889A60"))))
+ '(font-lock-type-face ((t (:foreground "#ead47a"))))
+ '(font-lock-variable-name-face ((t (:foreground "#C5563D" :weight bold))))
+ '(font-lock-warning-face ((t (:foreground "#ff6800" :weight bold))))
+ '(font-lock-doc-string-face ((t (:foreground "#91BB9E")))) 
+ '(link ((t (:underline t))))
+ '(link-visited ((t (:underline t))))
+ '(button ((t (:underline t))))
+ 
+; saved for future customization
+; '(isearch ((t (...)))) 
+; '(lazy-highlight ((t (...))))
+; '(whitespace-tab ((((class color) (background dark)) (:background "grey5" :foreground "grey10"))))
+; '(whitespace-indentation ((t (:background "#111"))))
+; '(whitespace-newline ((t (:foreground "#012" :weight normal))))
+; '(whitespace-space-before-tab ((t (:background "#210"))))
+; '(whitespace-space-after-tab ((t (:background "#210"))))
+; '(whitespace-trailing ((t (:background "#100"))))
+; '(trailing-whitespace ((t (:background "#100"))))
+ '(header-line ((t (:background "#1c482b" :foreground "#333333")))))
+
+(provide-theme 'twilight)
+
+;; Local Variables:
+;; no-byte-compile: t
+;; End:
+
+;;; twilight-theme.el  ends here
