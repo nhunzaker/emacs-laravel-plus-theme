@@ -7,7 +7,7 @@ Yes I know. However I could never find one I particularly liked, so I modified t
 
 `git clone git@github.com:nhunzaker/twilight-theme.git`
 
-In your init file:
+Set the proper configuration in your init file. Here's how I do it:
 
 ``` lisp
 ;; Twilight Theme
