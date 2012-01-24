@@ -1,6 +1,6 @@
-# Yet another Twilight Theme
+# A Twilight Theme for Emacs 24
 
-Yes I know. However I could never find one I particularly liked, so I modified the wonderful 
+Yes I know, yet another one. However I could never find one I particularly liked, so I modified the wonderful 
 [Django Theme by Andrzej Sliwa](https://github.com/andrzejsliwa/django-theme.el)
 
 ## Get Started
