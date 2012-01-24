@@ -1,10 +1,9 @@
 ;;; twilight-theme.el --- Custom face theme for Emacs
 
 ;; A modification of the Django Theme Written by Andrzej Sliwa
-;; Copyright (C) 2011 Andrzej Sliwa
 
-;; Author: Andrzej Sliwa
-;; URL: http://github/anrzejsliwa/django-theme
+;; Author: Nathan Hunzaker
+;; URL: http://github/natehunzaker/twilight-theme
 ;; Version: 1.0.0
 ;; 
 ;; This file is free software: you can redistribute it and/or modify
