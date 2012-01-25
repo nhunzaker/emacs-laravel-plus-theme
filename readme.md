@@ -11,7 +11,6 @@ Set the proper configuration in your init file. Here's how I do it:
 
 ``` lisp
 ;; Twilight Theme
-(add-to-list 'load-path "~/.emacs.d/themes/twilight")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/twilight")
 
 ;; Enable the following theme:
