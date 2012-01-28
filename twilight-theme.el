@@ -48,6 +48,7 @@
  
  '(font-lock-builtin-face ((t (:foreground "#55747C" :weight bold))))
 
+ 
  ;; Styles comments
  '(font-lock-comment-face ((t (:slant italic :foreground "#605860"))))
 
@@ -64,6 +65,25 @@
  '(button ((t (:underline t))))
 
  '(header-line ((t (:background "#444" :foreground "#d9d9d9" :box (:line-width 1 :color "#555")))))
+
+
+
+ ;; RHTML/ERB Specs ;;
+ ;;;;;;;;;;;;;;;;;;;;;
+
+ ;; Text within delimeters
+ '(erb-face ((t (:foreground "#d9d9d9" :weight normal))))
+ '(erb-exec-face ((t (:foreground "#d9d9d9" :weight normal))))
+
+ ;; Delimeter colors
+ '(erb-delim-face ((t (:foreground "#7f4539"))))
+ '(erb-exec-delim-face ((t (:foreground "#4f322c"))))
+ '(erb-out-delim-face ((t ( :foreground "#7f4539"))))
+ 
+ ;; Comments
+ '(erb-comment-face ((t (:slant italic :foreground "#605860"))))
+ '(erb-comment-delim-face ((t (:slant italic :foreground "#333"))))
+
 
  )
 
