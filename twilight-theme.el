@@ -73,7 +73,7 @@
 
  ;; Text within delimeters
  '(erb-face ((t (:foreground "#d9d9d9" :weight normal))))
- '(erb-exec-face ((t (:foreground "#d9d9d9" :weight normal))))
+ '(erb-exec-face ((t (:foreground "#d9d9d9" :background "#151515" :weight normal))))
 
  ;; Delimeter colors
  '(erb-delim-face ((t (:foreground "#7f4539"))))
