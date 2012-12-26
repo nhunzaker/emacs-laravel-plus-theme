@@ -1,7 +1,7 @@
 ;; laravel-theme.el --- Custom face theme for Emacs
 ;;
 ;; Author: Nathan Hunzaker
-;; URL: http://github/natehunzaker/laravel-theme
+;; URL: https://github.com/nhunzaker/emacs-laravel-plus-theme
 ;; Version: 0.0.1
 
 (unless (>= 24 emacs-major-version)
@@ -15,7 +15,7 @@
  
  '(default ((t (:background "#191919" :foreground "#f0f0f0" ))))
  '(cursor ((t (:foreground "#E4B239"))))
- '(region ((t (:background "#202020"))))
+ '(region ((t (:background "#E3B446" :foreground "#fff"))))
 
  ;; The mode line is found at the bottom of all frames
  '(mode-line ((t (:background "#292929" :foreground "#aaa" :box (:line-width 1 :color "#303030")))))
