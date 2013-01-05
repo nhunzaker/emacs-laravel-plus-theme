@@ -72,8 +72,7 @@
  '(header-line ((t (:background "#444" :foreground "#d9d9d9" :box (:line-width 1 :color "#555")))))
 
  ;; Line Numbering
- 
- '(linum ((t (:foreground "#444" ))))
+  '(linum ((t (:foreground "#444" :underline nil))))
 
  ;; JS2 MODE ;;
  ;;;;;;;;;;;;;
@@ -120,7 +119,6 @@
  ;;;;;;;;;;;;;;
  `(web-mode-html-tag-face ((t (:foreground "#DB613B" ))))
 
- 
  ;; RHTML/ERB Specs ;;
  ;;;;;;;;;;;;;;;;;;;;;
 
