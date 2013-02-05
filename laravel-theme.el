@@ -77,7 +77,7 @@
  ;; JS2 MODE ;;
  ;;;;;;;;;;;;;
  
- '(js2-function-param ((t (:foreground "#888"))))
+ '(js2-function-param ((t (:foreground "#555"))))
  '(js2-external-variable ((t (:foreground "#8F252E" :bold t ))))
  '(js2-jsdoc-tag ((t (:foreground "#87243C" ))))
  '(js2-jsdoc-type ((t (:foreground "#379A6A" ))))
