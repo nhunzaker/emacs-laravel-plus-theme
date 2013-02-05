@@ -8,6 +8,4 @@
 (load-theme 'laravel t)
 ```
 
-![javascript](https://raw.github.com/nhunzaker/emacs-laravel-plus-theme/master/screenshots/javascript.png)
-
-![scss](https://raw.github.com/nhunzaker/emacs-laravel-plus-theme/master/screenshots/scss.png)
+![javascript](https://raw.github.com/nhunzaker/emacs-laravel-plus-theme/master/screenshots/sample.png)

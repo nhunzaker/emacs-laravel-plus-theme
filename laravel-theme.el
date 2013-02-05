@@ -13,7 +13,7 @@
 (custom-theme-set-faces
  'laravel
  
- '(default ((t (:background "#191919" :foreground "#f0f0f0" ))))
+ '(default ((t (:background "#191919" :foreground "#eee" ))))
  '(cursor ((t (:foreground "#E4B239"))))
  '(region ((t (:background "#E3B446" :foreground "#fff"))))
 
@@ -49,13 +49,13 @@
  '(font-lock-doc-face ((t (:foreground "#555"))))
  
  ;; Constants
- '(font-lock-constant-face ((t (:foreground "#DD6133"))))
+ '(font-lock-constant-face ((t (:foreground "#D44B39"))))
  
  ;; Function names (not the keyword "function")
- '(font-lock-function-name-face ((t (:foreground "#fff"))))
+ '(font-lock-function-name-face ((t (:foreground "#fff" :bold t))))
 
  ;; Keywords
- '(font-lock-keyword-face ((t (:foreground "#DB613B"))))
+ '(font-lock-keyword-face ((t (:foreground "#D44B39"))))
 
  ;; Strings
  '(font-lock-string-face ((t (:foreground "#E3B446"))))
@@ -77,8 +77,8 @@
  ;; JS2 MODE ;;
  ;;;;;;;;;;;;;
  
- '(js2-function-param ((t (:foreground "#d9d9d9"))))
- '(js2-external-variable ((t (:foreground "#DB613B" ))))
+ '(js2-function-param ((t (:foreground "#888"))))
+ '(js2-external-variable ((t (:foreground "#8F252E" :bold t ))))
  '(js2-jsdoc-tag ((t (:foreground "#87243C" ))))
  '(js2-jsdoc-type ((t (:foreground "#379A6A" ))))
  '(js2-jsdoc-value ((t (:foreground "#E3B446" ))))
@@ -107,13 +107,13 @@
  ;; Markdown Mode ;;
  ;;;;;;;;;;;;;;;;;;
 
- `(markdown-header-face ((t (:foreground "#DB613B" ))))
+ `(markdown-header-face ((t (:foreground "#DB613B"))))
  `(markdown-header-face-6 ((t (:foreground "#87243C" ))))
  `(markdown-header-face-5 ((t (:foreground "#A12B39" ))))
- `(markdown-header-face-4 ((t (:foreground "#BA3232" ))))
- `(markdown-header-face-3 ((t (:foreground "#D44B39" ))))
- `(markdown-header-face-2 ((t (:foreground "#E5653E" ))))
- `(markdown-header-face-1 ((t (:foreground "#FF8645" ))))
+ `(markdown-header-face-4 ((t (:foreground "#BA3232" :height 150))))
+ `(markdown-header-face-3 ((t (:foreground "#D44B39" :height 150))))
+ `(markdown-header-face-2 ((t (:foreground "#E5653E" :height 175))))
+ `(markdown-header-face-1 ((t (:foreground "#FF8645" :height 200))))
 
  ;; Web Mode ;;
  ;;;;;;;;;;;;;;
