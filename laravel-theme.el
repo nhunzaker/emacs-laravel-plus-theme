@@ -1,4 +1,4 @@
-;; laravel-theme.el --- Custom face theme for Emacs
+;;; laravel-theme.el --- Custom face theme for Emacs
 ;;
 ;; Author: Nathan Hunzaker
 ;; URL: https://github.com/nhunzaker/emacs-laravel-plus-theme
@@ -31,15 +31,15 @@
 (custom-theme-set-faces
  'laravel
 
- '(default ((t ( :background "#191919" :stipple "~/.emacs.d/themes/laravel/assets/background.png" :foreground "#fff" ))))
+ '(default ((t ( :background "#191919" :foreground "#fff" ))))
 
- '(cursor ((t (:foreground "#E4B239"))))
+ '(cursor ((t (:background "#E4B239"))))
 
- '(region ((t (:background "#E3B446" :stipple "~/.emacs.d/themes/laravel/assets/highlight.png" :foreground "#fff"))))
+ '(region ((t (:background "#E3B446" :foreground "#fff"))))
 
  ;; The mode line is found at the bottom of all frames
- '(mode-line ((t (:font "04b03" :foreground "#aaa" :stipple "~/.emacs.d/themes/laravel/assets/modeline.png" :box (:color "#333B45" :line-width 1)))))
- '(mode-line-inactive ((t (:font "04b03" :stipple "~/.emacs.d/themes/laravel/assets/modeline_inactive.png" :foreground "#000" :box (:color "#333" :line-width 1)))))
+ '(mode-line ((t (:foreground "#aaa" :stipple "~/.emacs.d/themes/laravel/assets/modeline.png" :box (:color "#333B45" :line-width 1)))))
+ '(mode-line-inactive ((t (:stipple "~/.emacs.d/themes/laravel/assets/modeline_inactive.png" :foreground "#000" :box (:color "#333" :line-width 1)))))
 
  ;; The Border around the edge of the frame
  '(fringe ((t (:background "#191919"))))
@@ -51,6 +51,7 @@
 
  ;; The Selected Line
  '(hl-line ((t (:background "#1e1e1e"))))
+; '(highlight ((t (:background "#202020"))))
 
  ;; Errors
  '(flymake-errline  ((t (:underline "#ff6800"))))
@@ -63,7 +64,7 @@
  ;; "this" in javascript
  '(font-lock-builtin-face ((t (:foreground "#379A6A" :weight bold))))
 
- '(font-lock-error-face ((t (:foreground "#ff0000" :weight bold))))
+ '(font-lock-error-face ((t (:foreground "#8F252E" :weight bold))))
 
  ;; Comments
  '(font-lock-comment-face ((t (:slant italic :foreground "#555"))))
@@ -116,6 +117,7 @@
  `(whitespace-indentation ((t (:background nil :foreground "#333" ))))
  `(trailing-whitespace ((t (:background "#a22" :foreground "#fff"))))
  `(whitespace-trailing ((t (:background "#a22" :foreground "#fff"))))
+ `(whitespace-line ((t (:background nil :foreground "#d33682"))))
 
  ;; Flyspell
  '(flyspell-incorrect ((t (:foreground nil :underline "#e33"))))
@@ -127,7 +129,6 @@
 
  ;; CSS Mode ;;
  ;;;;;;;;;;;;;
-
  `(css-selector ((t (:foreground "#A12B39" ))))
  `(css-property ((t (:foreground "#bbb" ))))
  `(css-proprietary-property ((t (:foreground "#bbb" :slant normal))))
@@ -141,7 +142,22 @@
  `(markdown-header-face-4 ((t (:foreground "#BA3232"))))
  `(markdown-header-face-3 ((t (:foreground "#D44B39"))))
  `(markdown-header-face-2 ((t (:foreground "#E5653E"))))
- `(markdown-header-face-1 ((t (:foreground "#FF8645"))))
+ `(markdown-header-face-1 ((t (:foreground "#379A6A" :height 150))))
+
+ `(markdown-bold-face  ((t (:foreground "#ba3232" :bold t))))
+
+ ;; Rainbows ;;
+ ;;;;;;;;;;;;;;
+  `(rainbow-delimiters-depth-1-face ((t (:foreground "#FFFFFF"))))
+  `(rainbow-delimiters-depth-2-face ((t (:foreground "#FFaaaa"))))
+  `(rainbow-delimiters-depth-3-face ((t (:foreground "#ee7777"))))
+  `(rainbow-delimiters-depth-4-face ((t (:foreground "#dd5555"))))
+  `(rainbow-delimiters-depth-5-face ((t (:foreground "#cc3333"))))
+  `(rainbow-delimiters-depth-6-face ((t (:foreground "#bb1111"))))
+  `(rainbow-delimiters-depth-7-face ((t (:foreground "#aa2200"))))
+  `(rainbow-delimiters-depth-8-face ((t (:foreground "#993300"))))
+  `(rainbow-delimiters-depth-9-face ((t (:foreground "#772200"))))
+  `(rainbow-delimiters-depth-10-face ((t (:foreground "#551100"))))
 
  ;; Web Mode ;;
  ;;;;;;;;;;;;;;
