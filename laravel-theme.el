@@ -10,21 +10,6 @@
 (deftheme laravel
   "Laravel paste color theme")
 
-;; Numbers
-(make-face 'font-lock-number-face)
-(set-face-attribute 'font-lock-number-face nil :inherit font-lock-constant-face)
-(setq font-lock-number-face 'font-lock-number-face)
-
-(defvar font-lock-number "[0-9]+\\([eE][+-]?[0-9]*\\)?")
-(defvar font-lock-hexnumber "0[xX][0-9a-fA-F]+")
-
-(font-lock-add-keywords nil (list
-                             (list (concat "\\<\\(" font-lock-number "\\)\\>" )
-                                   0 font-lock-number-face)
-                             (list (concat "\\<\\(" font-lock-hexnumber "\\)\\>" )
-                                   0 font-lock-number-face)
-                             ))
-
 (setq underline-minimum-offset 4)
 
 ;; Highlighting
@@ -35,7 +20,13 @@
 
  '(cursor ((t (:background "#E4B239"))))
 
- '(region ((t (:background "#E3B446" :foreground "#fff"))))
+ '(region ((t (:background "#333933" :foreground unspecified))))
+ '(match ((t (:background "#333933" :foreground unspecified))))
+ '(ac-selection-face ((t (:background "#333933" :foreground unspecified))))
+ '(info-index-match ((t (:background "#333933" :foreground unspecified))))
+ '(popup-menu-selection-face ((t (:background "#333933" :foreground unspecified))))
+ '(org-clock-overlay ((t (:background "#333933" :foreground unspecified))))
+ '(org-agenda-clocking ((t (:background "#333933" :foreground unspecified))))
 
  ;; The mode line is found at the bottom of all frames
  '(mode-line ((t (:foreground "#aaa" :stipple "~/.emacs.d/themes/laravel/assets/modeline.png" :box (:color "#333B45" :line-width 1)))))
@@ -50,8 +41,7 @@
  '(ido-subdir ((t (:foreground "#3B7C55"))))
 
  ;; The Selected Line
- '(hl-line ((t (:background "#1e1e1e"))))
-; '(highlight ((t (:background "#202020"))))
+ '(hl-line ((t :background unspecified :underline unspecified)))
 
  ;; Errors
  '(flymake-errline  ((t (:underline "#ff6800"))))
@@ -78,9 +68,6 @@
 
  ;; Keywords
  '(font-lock-keyword-face ((t (:foreground "#D44B39"))))
-
- ;; Numbers
- '(font-lock-number-face ((t (:foreground "#379A6A"))))
 
  ;; Strings
  '(font-lock-string-face ((t (:foreground "#E3B446"))))
@@ -158,6 +145,8 @@
   `(rainbow-delimiters-depth-8-face ((t (:foreground "#993300"))))
   `(rainbow-delimiters-depth-9-face ((t (:foreground "#772200"))))
   `(rainbow-delimiters-depth-10-face ((t (:foreground "#551100"))))
+
+  `(show-paren-match ((t (:background "#222" :foreground "#E3B446" :underline "transparent"))))
 
  ;; Web Mode ;;
  ;;;;;;;;;;;;;;
